@@ -4,7 +4,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import CampaignResults from "@/components/CampaignResults";
 import CaseStudies from "@/components/CaseStudies";
 import PerformanceDashboard from "@/components/PerformanceDashboard";
-import ClientSuccessStories from "@/components/ClientSuccessStories";
+
 import ScreenshotGallery from "@/components/ScreenshotGallery";
 import Expert from "@/components/Expert";
 import About from "@/components/About";
@@ -22,7 +22,7 @@ export default function Home() {
       <CampaignResults />
       <CaseStudies />
       <PerformanceDashboard />
-      <ClientSuccessStories />
+     
       <ScreenshotGallery />
       <Expert />
       <About />
