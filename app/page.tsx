@@ -9,6 +9,8 @@ import ScreenshotGallery from "@/components/ScreenshotGallery";
 import Expert from "@/components/Expert";
 import About from "@/components/About";
 import Process from "@/components/Process";
+import PortfolioPreview from "@/components/PortfolioPreview";
+import SnapshotBlock from "@/components/SnapshotBlock";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -22,11 +24,12 @@ export default function Home() {
       <CampaignResults />
       <CaseStudies />
       <PerformanceDashboard />
-     
+      <SnapshotBlock />
       <ScreenshotGallery />
       <Expert />
       <About />
       <Process />
+      <PortfolioPreview />
       <FAQ />
       <Contact />
       <Footer />
